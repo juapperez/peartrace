@@ -1,0 +1,46 @@
+{
+  "transport": "in-process Hypercore replication streams",
+  "externalNetworkTested": false,
+  "readerWritable": false,
+  "manifest": {
+    "version": 1,
+    "records": [
+      {
+        "index": 0,
+        "id": "empty-sequence",
+        "bytes": 66,
+        "sha256": "d9dc9dc389585687c04b018c9ec0aa5c47ce91f3b8131cfd5e60f0a38920ce78"
+      },
+      {
+        "index": 1,
+        "id": "signed-integers",
+        "bytes": 74,
+        "sha256": "ab66f4913ddb163fe11203e63137244aa4013324793ad7e9a1050594da1312b3"
+      },
+      {
+        "index": 2,
+        "id": "repeated-values",
+        "bytes": 74,
+        "sha256": "54177039aa31164773893ae5c4a26133755523eb642db2b312901d10752bf56c"
+      }
+    ]
+  },
+  "results": [
+    {
+      "index": 0,
+      "ok": true,
+      "reason": "exact-bytes-match"
+    },
+    {
+      "index": 1,
+      "ok": true,
+      "reason": "exact-bytes-match"
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "reason": "exact-bytes-match"
+    }
+  ],
+  "ok": true
+}

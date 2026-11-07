@@ -1,0 +1,15 @@
+{
+  "name": "peartrace-prototype",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Synthetic fixture replication checks for the Pears P2P stack; Node.js local prototype",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "hypercore": "11.40.3"
+  }
+}

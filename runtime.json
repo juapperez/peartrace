@@ -1,0 +1,8 @@
+{
+  "verified_at": "2026-11-07T20:35:45.842132+00:00",
+  "node": "v20.20.2",
+  "platform": "macOS arm64",
+  "hypercore": "11.40.3",
+  "tests_passed": 7,
+  "remote_network_tested": false
+}
